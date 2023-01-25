@@ -26,7 +26,7 @@
                 <button>REGISTRAR</button>
                 <div>
                   <span class="fa fa-phone"></span>001 1023 567
-                  <span class="fa fa-envelope-o"></span> tec@company.com
+                  <span class="fa fa-envelope-o"></span> icomputec@company.com
                 </div>
             </form>
          </body>
