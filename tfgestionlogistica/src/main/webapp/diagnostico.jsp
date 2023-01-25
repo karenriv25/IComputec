@@ -8,10 +8,24 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Diagnostico</title>
+        <link rel="stylesheet" media="all" href="style.css" />
+            
     </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+        <body>
+            <form class="form">
+                <h2><center>Registro de Diagnostico</center></h2>
+                <p type="ID de Diagnostico:"><input placeholder="codigo ID"></input></p>
+                <p type="ID del Equipo"><input placeholder="Write your name here.."> </input> </p>
+                <p type="Detalles:"><input  placeholder="Detalles del diagnostico"></input></p>
+                                
+                <button>REGISTRAR</button>
+                <div>
+                  <span class="fa fa-phone"></span>001 1023 567
+                  <span class="fa fa-envelope-o"></span> tec@company.com
+                </div>
+            </form>
+         </body>
 </html>

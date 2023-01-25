@@ -28,7 +28,7 @@
             text-align: center;
             padding: 15px 10px;
             list-style: none
-            border-bottom: 3px solid rgba (100, 100, 100, .3);
+            border-bottom:3px solid rgba (100, 100, 100, .3);
         }
         #sidebar .toggle-btn{
             position: absolute;

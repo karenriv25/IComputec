@@ -8,10 +8,26 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Clientes</title>
+        <link rel="stylesheet" media="all" href="style.css" />
+            
     </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+        <body>
+            <form class="form">
+                <h2><center>Registro de Cliente</center></h2>
+                <p type="ID:"><input placeholder=".."></input></p>
+                <p type="Nombre:"><input placeholder="Escribe tu nombre aqui..."> </input> </p>
+                <p type="Apellido:"><input  placeholder="Escribe tu apellido aqui.."></input></p>
+                <p type="DNI:"><input placeholder="Escreibe tu numero de DNI aqui.."></input></p>
+                <p type="Celular:"><input placeholder="Tu numero de celular personal.."></input></p>
+                
+                <button>REGISTRAR</button>
+                <div>
+                  <span class="fa fa-phone"></span>001 1023 567
+                  <span class="fa fa-envelope-o"></span> tec@company.com
+                </div>
+            </form>
+         </body>
 </html>
