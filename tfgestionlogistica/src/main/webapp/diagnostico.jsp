@@ -47,6 +47,18 @@
           width: 100px;
           height: 100px;
         }
+        a{
+            
+            outline: none;
+            text-decoration:none;
+            
+        }
+        a:link {
+            color: #ffffff;
+        }
+        a:visited{
+            color: #ffffff;
+        }
     </style>
     <head>
         
@@ -60,14 +72,14 @@
             <div class="toggle-btn" >
                 <span>&#9776;</span>
             </div>
-            <ul>
+             <ul>
                 <li>
-                    <img src="img/logo.png" alt="alt"/> 
+                    <img src="img/logo.png" alt="alt"/>
                 </li>
-                <li class="orden"><a href="ordenes.jsp" style="text-decoration: none">LISTA DE ORDENES</a></li>
-                <li class="iclientes"><a href="clientes.jsp" style="text-decoration: none">INGRESO CLIENTES</a></li>
-                <li class="equipo"><a href="equipo.jsp" style="text-decoration: none">INGRESO EQUIPO</a></li>
-                <li class="diagnostico"><a href="diagnostico.jsp" style="text-decoration: none">INGRESO DIAGNOSTICO</a></li>
+                <li class="orden" ><a href="ordenes.jsp"   >LISTA DE ORDENES</a></li>
+                <li class="iclientes"><a href="clientes.jsp" >INGRESO CLIENTES</a></li>
+                <li class="equipo"><a href="equipo.jsp"  >INGRESO EQUIPO</a></li>
+                <li class="diagnostico"><a href="diagnostico.jsp" >INGRESO DIAGNOSTICO</a></li>
             </ul>
         </div>
         <script>
@@ -77,13 +89,15 @@
         });
         </script>
         <body>
-            <form class="form">
+            <form class="form2">
                 <h2><center>Registro de Diagnostico</center></h2>
                 <p type="ID de Diagnostico:"><input placeholder="codigo ID"></input></p>
-                <p type="ID del Equipo"><input placeholder="Write your name here.."> </input> </p>
-                <p type="Detalles:"><input  placeholder="Detalles del diagnostico"></input></p>
+                <p type="Diagnostico de software:"><input placeholder="Detalles de software.."> </input> </p>
+                <p type="Diagnostico de perifericos:"><input  placeholder="Detalles del diagnostico"></input></p>
+                <p type="Diagnostico de placa"><input  placeholder="Detalles del diagnostico"></input></p>
+                <p type="Mantenimiento y formateo"><input  placeholder="Detalles..."></input></p>
                                 
-                <button>REGISTRAR</button>
+                <button>REGISTRAR DIAGNOSTICO</button>
                 <div>
                   <span class="fa fa-phone"></span>001 1023 567
                   <span class="fa fa-envelope-o"></span> icomputec@company.com

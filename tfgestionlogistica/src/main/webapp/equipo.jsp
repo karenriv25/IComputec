@@ -47,6 +47,18 @@
           width: 100px;
           height: 100px;
         }
+        a{
+            
+            outline: none;
+            text-decoration:none;
+            
+        }
+        a:link {
+            color: #ffffff;
+        }
+        a:visited{
+            color: #ffffff;
+        }
     </style>
     <head>
         
@@ -65,10 +77,10 @@
                 <li>
                     <img src="img/logo.png" alt="alt"/>
                 </li>
-                <li class="orden" style="color: #ffffff"><a href="ordenes.jsp" style="text-decoration: none">LISTA DE ORDENES</a></li>
-                <li class="iclientes"><a href="clientes.jsp" style="text-decoration: none">INGRESO CLIENTES</a></li>
-                <li class="equipo"><a href="equipo.jsp" style="text-decoration: none">INGRESO EQUIPO</a></li>
-                <li class="diagnostico"><a href="diagnostico.jsp" style="text-decoration: none">INGRESO DIAGNOSTICO</a></li>
+                <li class="orden" ><a href="ordenes.jsp"  >LISTA DE ORDENES</a></li>
+                <li class="iclientes"><a href="clientes.jsp"  >INGRESO CLIENTES</a></li>
+                <li class="equipo"><a href="equipo.jsp" >INGRESO EQUIPO</a></li>
+                <li class="diagnostico"><a href="diagnostico.jsp" >INGRESO DIAGNOSTICO</a></li>
             </ul>
         </div>
         <script>
@@ -77,10 +89,24 @@
             document.getElementById('sidebar').classList.toggle('active');
         });
         </script>
-            <form class="form">
+            <form class="form1">
                 <h2><center>Registro de Equipo</center></h2>
                 <p type="ID Equipo:"><input placeholder=".."></input></p>
-                <p type="Sintomas:"><input placeholder=".."> </input> </p>
+                <p type="Marca:"><input placeholder=".."></input></p>
+                <p type="Modelo:"><input placeholder=".."></input></p>
+                <p type="Serie:"><input placeholder=".."></input></p>
+                <p type="Procesador:"><input placeholder=".."> </input> </p>
+                <p type="Ram:"><input placeholder=".."> </input> </p>
+                <p type="Almacenamiento"><input placeholder=".."> </input> </p>
+                <p type="Placa"><input placeholder=".."> </input> </p>
+                <p type="Pantalla"><input placeholder=".."> </input> </p>
+                <p type="Lectoroptico"><input placeholder=".."> </input> </p>
+                <p type="Bateria"><input placeholder=".."> </input> </p>
+                <p type="Adaptador"><input placeholder=".."> </input> </p>
+                <p type="Observaciones"><input placeholder=".."> </input> </p>
+            
+            
+                <p type="Sintomas"><input placeholder=".."> </input> </p>
                 <p type="Frecuencia:"><input  placeholder=".."></input></p>
                 <p type="Ultimos Cambios:"><input placeholder=".."></input></p>
                 <p type="Ultimos servicios:"><input placeholder=".."></input></p>

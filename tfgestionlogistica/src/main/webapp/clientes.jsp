@@ -47,6 +47,18 @@
           width: 100px;
           height: 100px;
       }
+      a{
+            
+            outline: none;
+            text-decoration:none;
+            
+        }
+        a:link {
+            color: #ffffff;
+        }
+        a:visited{
+            color: #ffffff;
+        }
     </style>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -64,11 +76,11 @@
                 <li>
                     <img src="img/logo.png" alt="alt"/>
                 </li>
-                <li class="home"><a href="home.jsp" style="text-decoration: none ">HOME</a></li>
-                <li class="orden"><a href="ordenes.jsp" style="text-decoration: none">LISTA DE ORDENES</a></li>
-                <li class="iclientes"><a href="clientes.jsp" style="text-decoration: none">INGRESO CLIENTES</a></li>
-                <li class="equipo"><a href="equipo.jsp" style="text-decoration: none">INGRESO EQUIPO</a></li>
-                <li class="diagnostico"><a href="diagnostico.jsp" style="text-decoration: none">INGRESO DIAGNOSTICO</a></li>
+                <li class="home"><a href="home.jsp">HOME</a></li>
+                <li class="orden"><a href="ordenes.jsp" >LISTA DE ORDENES</a></li>
+                <li class="iclientes"><a href="clientes.jsp" >INGRESO CLIENTES</a></li>
+                <li class="equipo"><a href="equipo.jsp" >INGRESO EQUIPO</a></li>
+                <li class="diagnostico"><a href="diagnostico.jsp" >INGRESO DIAGNOSTICO</a></li>
             </ul>
         </div>
         <script>
@@ -78,7 +90,7 @@
         });
         </script>
         <form class="form">
-            <h2><center>Registro de Cliente</center></h2>
+            <h2>Registro de Cliente</h2>
             <p type="ID:"><input placeholder=".."></input></p>
             <p type="Nombre:"><input placeholder="Escribe tu nombre aqui..."> </input> </p>
             <p type="Apellido:"><input  placeholder="Escribe tu apellido aqui.."></input></p>

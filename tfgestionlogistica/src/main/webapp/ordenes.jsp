@@ -51,6 +51,18 @@
           width: 100px;
           height: 100px;
         }
+        a{
+            
+            outline: none;
+            text-decoration:none;
+            
+        }
+        a:link {
+            color: #ffffff;
+        }
+        a:visited{
+            color: #ffffff;
+        }
     </style>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -62,14 +74,14 @@
             <div class="toggle-btn" >
                 <span>&#9776;</span>
             </div>
-            <ul>
+             <ul>
                 <li>
                     <img src="img/logo.png" alt="alt"/>
                 </li>
-                <li class="orden"><a href="ordenes.jsp" style="text-decoration: none">LISTA DE ORDENES</a></li>
-                <li class="iclientes"><a href="clientes.jsp" style="text-decoration: none">INGRESO CLIENTES</a></li>
-                <li class="equipo"><a href="equipo.jsp" style="text-decoration: none">INGRESO EQUIPO</a></li>
-                <li class="diagnostico"><a href="diagnostico.jsp" style="text-decoration: none">INGRESO DIAGNOSTICO</a></li>
+                <li class="orden" ><a href="ordenes.jsp"   >LISTA DE ORDENES</a></li>
+                <li class="iclientes"><a href="clientes.jsp" >INGRESO CLIENTES</a></li>
+                <li class="equipo"><a href="equipo.jsp" >INGRESO EQUIPO</a></li>
+                <li class="diagnostico"><a href="diagnostico.jsp" >INGRESO DIAGNOSTICO</a></li>
             </ul>
         </div>
         <script>
