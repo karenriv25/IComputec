@@ -19,7 +19,7 @@
     if (uname.equals("admin") && password.equals("admin123")) {
         session.setAttribute(uname, uname);
         session.setAttribute(password, password);
-        response.sendRedirect("home.jsp");
+        response.sendRedirect("ordenes.jsp");
         }
         else{
          response.sendRedirect("indexx.jsp");
